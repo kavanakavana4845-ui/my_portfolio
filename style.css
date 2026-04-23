@@ -46,7 +46,7 @@ nav a {
 .hero {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     padding: 40px 20px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -108,4 +108,17 @@ nav {
   border-radius: 20px;
   border: 1px solid var(--accent);
   font-size: 0.85rem;
+}
+
+
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;  /* stacks vertically on mobile */
+    text-align: center;
+    gap: 12px;
+  }
+
+  nav ul {
+    gap: 8px;   /* tighter spacing on mobile */
+  }
 }
