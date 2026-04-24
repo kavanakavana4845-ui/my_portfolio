@@ -126,3 +126,13 @@ nav {
     gap: 8px;   /* tighter spacing on mobile */
   }
 }
+
+/* This is your LIGHT theme */
+body.light {
+  background: #ffffff;
+  color: #0f0f0f;
+}
+
+body.light nav {
+  background: #f0f0f0;
+}
